@@ -10,7 +10,7 @@ import Logo from "../assets/google-logo.png";
 import SearchInput from "./SearchInput";
 import ProfileIcon from "./ProfileIcon";
 import { Context } from "../utils/ContextApi";
-import { menu } from "../utils/constants";
+import { menu } from "../utils/Constants";
 
 const SearchResultHeader = () => {
     const [selectedMenu, setSelectedMenu] = useState("All");
